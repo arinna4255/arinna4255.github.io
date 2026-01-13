@@ -1,0 +1,85 @@
+body {
+    font-size: large;
+    color: #ff8000;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contentStyle {
+    background-color: #ffffffe3;
+    padding: 1rem;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    background-color: #ff8000;
+    color: aliceblue;
+    border-color: aliceblue;
+    width: 5rem;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+
+h2 {
+    color: #ff8000;
+}
+
+h2:hover {
+    color: blueviolet;
+}
+h3 {
+    margin: 0px;
+}
+li {
+    font-size: larger;
+}
+li:nth-child(1) {
+    color: blueviolet;
+    /* text color */
+}
+
+li:nth-child(1)::marker {
+    color: blueviolet;
+}
+
+li:nth-child(2) {
+    color: blueviolet; /* text color */
+}
+
+li:nth-child(2)::marker {
+    color: blueviolet;  /* text color */
+}
+
+li:nth-child(3) {
+    color: blueviolet; /* text color */
+}
+
+li:nth-child(3)::marker {
+    color: blueviolet
+}
+
+.inline {
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.foo {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.mlem {
+    color: blueviolet;
+    text-decoration: none;
+}
